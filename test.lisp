@@ -61,6 +61,25 @@
 (output 'Hoi!'))
 (a)
 
+;; and or not
+
+(= $mem1 1)
+(= $mem2 2)
+(= $mem3 3)
+(and $mem1 $mem2)
+(and $acc $mem3)
+(show-reg $acc) ;; it will print it out output 1
+
+(= $mem2 5)
+(or $mem1 $mem2)
+(show-reg $acc) ;; prints out output 5
+
+(not $mem1 5)
+(show-reg $acc) ;; prints out output 1
+
+(= $mem1 5)
+(not $mem1 5)
+(show-reg $acc) ;; prints out output 0
 
 ;; sooner ill add more about norn's language.
 
