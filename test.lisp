@@ -1,4 +1,4 @@
-;; GOC is nornorm's custom language heavily similarity lisp rules and some functions and used by own Bytecodes. That language was used purpose to try make first time game object code language.
+;; GOC is nornorm's custom language heavily similarity lisp rules, some functions and used by own Bytecodes.
 ;; GOC is middle level language
 ;; That was idea from Andy Gavin's Blog about Crash Bandicoot GOOL.
 ;; Script: test.lisp
